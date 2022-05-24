@@ -1,3 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: url("/src/res/assets/fonts/B_Yekan.ttf");
+  font-style: normal;
+  unicode-range: U+0-2f, U+40-10FFFF;
+}
+p, div, span, button, input {
+  margin: 0;
+  padding: 0;
+  font-family: "BYekan", "sans-serif";
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +52,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* new */
+.navbar {
+  background-color: #4169e1;
+}
+
+.navbar h3 {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-info {
+  padding: 10px;
+}
+
+.Current {
+  color: #2e8b57;
+}
+
+.Completed {
+  color: #ff6347;
+  text-decoration: line-through;
 }

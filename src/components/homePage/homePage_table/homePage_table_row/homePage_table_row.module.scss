@@ -1,0 +1,129 @@
+@import "/src/res/colors.scss";
+.mainContainer {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: $table_row_bg_color;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+.nameContainer {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameText {
+    font-size: 0.9rem;
+}
+.brandContainer {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brandText {
+    font-size: 0.7rem;
+}
+.imageContainer {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    height: 80%;
+}
+.numContainer {
+    width: 5%;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numText {
+    font-size: 0.8rem;
+}
+
+//***************** DescktopView ******************
+@import "/src/res/colors.scss";
+.d_mainContainer {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: $table_row_bg_color;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+.d_colorContainer {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_colorText {
+    font-size: 0.7rem;
+    text-align: center;
+}
+.d_storageContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_storageText {
+    font-size: 0.9rem;
+}
+.d_ramContainer {
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_ramText {
+    font-size: 0.9rem;
+}
+.d_nameContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_nameText {
+    font-size: 0.9rem;
+}
+.d_brandContainer {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_brandText {
+    font-size: 0.7rem;
+}
+.d_imageContainer {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_image {
+    height: 80%;
+}
+.d_numContainer {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_numText {
+    font-size: 0.8rem;
+}

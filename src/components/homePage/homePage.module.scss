@@ -1,0 +1,47 @@
+@import "/src/res/colors.scss";
+.mainContainer {
+    width: 100%;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+//***************** DesktopView *******************
+.d_mainContainer {
+    width: 100%;
+    min-width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.d_leftContainer {
+    width: 80%;
+    // height: 10000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    // position: absolute;
+    left: 0;
+    top: 5;
+    margin-right: 20%;
+    
+}
+.d_rightContainer {
+    width: 20%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    // border: 1px solid red;
+    position: fixed;
+    top: 5;
+    right: 0;
+    background-color: $primary_color;
+}

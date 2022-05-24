@@ -1,0 +1,102 @@
+@import "/src/res/colors.scss";
+
+.mainContainer {
+    width: 90%;
+    height: 40px;
+    background-color: $table_header_color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.headerNameContainer {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerBrandContainer {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerImageContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerNumContainer {
+    width: 5%;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerText {
+    font-size: 0.9rem;
+    color: $table_header_text_color;
+}
+
+// ************* DescktopView *****************
+.d_mainContainer {
+    width: 90%;
+    height: 40px;
+    background-color: $table_header_color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.d_headerColorContainer {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerStorageContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerRamContainer {
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerNameContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerBrandContainer {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerImageContainer {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerNumContainer {
+    width: 3%;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_headerText {
+    font-size: 0.9rem;
+    color: $table_header_text_color;
+}

@@ -1,0 +1,80 @@
+@import '/src/res/colors.scss';
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: $loading_bg_color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoImage {
+    width: 10.5vw;
+}
+
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.3;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.3;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.3;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.3;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink_image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+.localMainContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadingGif {
+    width: 30%;
+    max-width: 100px;
+}

@@ -1,0 +1,18 @@
+@import "/src/res/colors.scss";
+
+.mainContainer {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    background-color: $footer_bg_color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerText {
+    color: $footer_text_color;
+    font-size: 1.5rem;
+    font-weight: 800;
+}

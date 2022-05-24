@@ -1,0 +1,51 @@
+@import '/src/res/colors.scss';
+
+.m_mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.m_descText {
+    align-self: flex-end;
+    direction: rtl;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m_inputContainer {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.m_searchIconContainer {
+    width: 20%;
+    height: 35px;
+    background-color: $primary_color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m_searchIcon {
+    color: #ffffff;
+    font-size: 1rem;
+}
+.m_loadingImg {
+    height: 60%;
+}
+.m_input {
+    width: 60%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid $input_border_color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}

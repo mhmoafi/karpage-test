@@ -1,0 +1,17 @@
+@import '/src/res/colors.scss';
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.headerCleaner {
+    height: 62px;
+}
+.footerCleaner {
+    height: 100px;
+    width: 100%;
+}

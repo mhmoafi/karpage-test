@@ -1,0 +1,46 @@
+@import '/src/res/colors.scss';
+
+.headerContainer {
+    width: 100%;
+    height: 60px;
+    background-color: $header_bg_color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    border-bottom: 2px solid $primary_color;
+}
+.leftContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logoImage {
+    margin-left: 10px;
+    width: 40px;
+}
+.headerTitle {
+    color: $header_title_color;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.rightContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logoutIcon {
+    color: $header_title_color;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
